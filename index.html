@@ -3,12 +3,13 @@
 
 <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" type="text/css" href="styles.css">
     <link rel="icon" href="Assets/Images/LukeHappyIcon.jpg">
     <title>Porfolio</title>
 </head>
 
-    <body>
+<body>
         <header>
             <nav class="nav">
                 <ul>
@@ -19,59 +20,74 @@
             </nav>
         </header>
 
-
-
-    <section class="about" id="navabout">
-        <article>
-            <h1>About Me</h1>
-                <div class="me">
-                <img src="Assets/Images/FancyMe.JPG" ALIGN="left" alt="Picture of me">
+<main>
+    <div class="about" id="navabout">
+        <h1>About Me</h1>
+            <article class="me">
+                <img src="Assets/Images/FancyMe.JPG" alt="Picture of me">
                 <p>
                     <em> <b>Hello World!</b> </em>
                     <br>
                     My name is Jesse Maraya. I am an aspiring programmer trying to learn how coding works. 
                     Until I get a better understand of the web development world, please enjoy my filler images of my adorable pooch, Luke.
                 </p>
-            </div>
-        </article>
-    </section>
+            </article>
+        </div>
 
-    <section class="work" id="navwork">
+    <div class="work" id="navwork">
         <h1>Work</h1>
-            <article class="project1">
+
+        <div class="solo">
+            <section class="project1">
                 <a href="https://jmaraya1229.github.io/horiseon-webpage/">
-                <img src="Assets/Images/LukeHappyWide.jpg" width="700px" height="500px" alt="Happy Luke">
+                    <img src="Assets/Images/LukeHappyWide.jpg" width="700px" height="500px" alt="Happy Luke">
                 </a>
-                <div class="text-block">
-                    <h2>Horiseon</h2>
-                </div>    
-            </article>
+                    <footer>
+                        <h2>Horiseon</h2>
+                    </footer>    
+            </section>
+        </div>
 
-            <article class="projectx">
-                <img src="./Assets/Images/LukeT1.jpg" width="400px" height="400px" alt="Luke sleeping funny under a pillow">
-                    <div class="text-block1">
+        <div class="projects">
+            <section class="projectx">
+                <a href="#">    
+                    <img src="./Assets/Images/LukeT1.jpg" width="400px" height="400px" alt="Luke sleeping funny under a pillow">
+                </a>
+                    <footer>
+                        <h2>Project 1</h2>
+                    </footer>
+            </section>
+
+            <section class="projectx">
+                <a href="#"> 
+                    <img src="./Assets/Images/LukeT2.jpg" width="400px" height="400px"alt="Luke sleeping with his snout pointing bottom left"> 
+                </a>    
+                    <footer>
                         <h2>Project 2</h2>
-                    </div>
+                    </footer>
+            </section>    
 
-                <img src="./Assets/Images/LukeT2.jpg" width="400px" height="400px"alt="Luke sleeping with his snout pointing bottom left"> 
-                    <div class="text-block2">
+            <section class="projectx">
+                <a href="#"> 
+                    <img src="Assets/Images/LukeT3.jpg" width="400px" height="400px"alt="Luke sleeping with his snout pointing up"> 
+                </a>
+                    <footer>
                         <h2>Project 3</h2>
-                    </div>
-            </article>    
-
-            <article class="projectx">
-                <img src="Assets/Images/LukeT3.jpg" width="400px" height="400px"alt="Luke sleeping with his snout pointing up"> 
-                    <div class="text-block1">
-                        <h2>Project 4</h2>
-                    </div>        
-                <img src="Assets/Images/LukeT4.jpg" width="400px" height="400px"alt="Luke sleeping with his snout pointing right"> 
-                    <div class="text-block2">    
-                        <h2>Product 5</h2>
-                    </div>
-            </article>
-    </section>
-
-        <footer id="navcontact">
+                    </footer> 
+            </section> 
+                    
+            <section class="projectx">
+                <a href="#"> 
+                    <img src="Assets/Images/LukeT4.jpg" width="400px" height="400px"alt="Luke sleeping with his snout pointing right"> 
+                </a>
+                    <footer>    
+                        <h2>Product 4</h2>
+                    </footer>
+            </section>
+        </div>
+    </div>
+</main>
+        <footer class="contact" id="navcontact">
             <ul>
                 <h4>Contact me</h4>
                 <a href="mailto:jessemaraya2013@gmail.com">Email</a>
@@ -79,7 +95,7 @@
                 <a href="https://www.linkedin.com/in/jesse-maraya/">Linkedin</a>
             </ul>
         </footer>
-            
+    
     </body>
 </html>
 

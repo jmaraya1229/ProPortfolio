@@ -38,19 +38,9 @@ body {
     color: navy;
 }
 
-section {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-h1 {
-    float: left;
-    padding: 20px;
-    font-size: 30px;
-}
-
 .about {
-    width: 100%;
+    justify-content: center;
+    padding-bottom: 3%;
 }
 
 .me {
@@ -72,68 +62,58 @@ h1 {
     background-color:lightsteelblue;
     padding: 10px;
 }
-.work {
+
+.solo {
     display: flex;
-    width: 100%;
-    padding-bottom: 5%;
-    display: flex;
-    position: relative;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex:1;
 }
 
 .project1 {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    position: relative;
+    flex: 0 0 715px;
+    padding-bottom: 50px;
+}
+
+.project1 footer {
+    text-align: center;
+    border: solid lightsteelblue;
+    padding: 2px;
 }
 
 .project1 img {
     border: 10px solid lightsteelblue;
+    margin: 1%;
 }
 
-.text-block {
-    position: absolute;
-    bottom: 10%;
-    left: 30%;
-    background-color: lightsteelblue;
-    color: navy;
-    padding-right: 20px;
-    padding-left: 20px;
-}
-
-.text-block1 {
-    position: absolute;
-    bottom: 10%;
-    left: 25%;
-    background-color: lightsteelblue;
-    color: navy;
-    padding-right: 20px;
-    padding-left: 20px;
-}
-
-.text-block2 {
-    position: absolute;
-    bottom: 10%;
-    left: 52%;
-    background-color: lightsteelblue;
-    color: navy;
-    padding-right: 20px;
-    padding-left: 20px;
+.projects {
+    flex: 4;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
 }
 
 .projectx {
-    width: 100%;
-    display:flex;
-    justify-content: center;
-    position: relative;
+    padding: 10px;
+    flex: 0 0 300px;
+    padding-bottom: 65px;
+}
+
+.projectx footer {
+    text-align: center;
+    border: solid lightsteelblue;
+    padding: 2px;
+
 }
 
 .projectx img {
-   border: 10px solid lightsteelblue;
-   margin: 3px;
-}
+    border: 10px solid lightsteelblue;
+    margin: 1%;
+ }
 
-footer {
+.contact {
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -144,20 +124,3 @@ footer {
     font-size: 20px
 }
 
-@media screen and (max-width: 1200px) {
-    body {
-        width: 100%;
-    }
-}
-
-@media screen and (max-width: 768px){
-    body {
-        width: 75%;
-    }
-}
-
-@media screen and (max-width: 320px){
-    body {
-        width: 50%;
-    }
-}
