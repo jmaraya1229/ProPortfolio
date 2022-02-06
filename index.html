@@ -12,12 +12,24 @@
 
 <body>
     <header>
-        <nav class="nav">
-            <ul>
-                <li> <a href="#navabout"> About Me</a> </li>
-                <li> <a href="#navwork"> Work</a> </li>
-                <li> <a href="#navcontact"> Contact Me </a> </li>
-            </ul>
+        <nav class="navbar" role="navigation" aria-label="main navigation">
+            <div class="navbar-brand">
+                <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                  <span aria-hidden="true"></span>
+                  <span aria-hidden="true"></span>
+                  <span aria-hidden="true"></span>
+                </a>
+              </div>
+            
+            <div id="navbarBasic" class="navbar-menu">
+                <div class="navbar-start">
+                    <a class="navbar-item">
+                    Home
+                    </a>
+                    <a class="navbar-item" href="">
+                    Projects
+                    </a>
+                </div>
         </nav>
     </header>
 
@@ -25,7 +37,7 @@
     <div class="about" id="navabout">
         <h1>About Me</h1>
             <section class="me">
-                <img src="Assets/Images/FancyMe.JPG" alt="Picture of me">
+                <!-- <img src="Assets/Images/FancyMe.JPG" alt="Picture of me"> -->
                 <p>
                     <em> <b>Hello World!</b> </em>
                     <br>
@@ -35,7 +47,9 @@
             </section>
     </div>
 
-    <div class="work" id="navwork">
+
+
+    <!-- <div class="work" id="navwork">
         <h1>Work</h1>
             <div class="solo">
                 <section class="project1">
@@ -95,7 +109,7 @@
                 <a href="https://www.linkedin.com/in/jesse-maraya/">Linkedin</a>
             </ul>
         </footer>
-    
+     -->
     </body>
 </html>
 
