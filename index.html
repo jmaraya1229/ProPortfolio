@@ -12,7 +12,7 @@
 
 <body>
     <header>
-        <nav class="navbar" role="navigation" aria-label="main navigation">
+        <nav class="navbar is-fixed-top is-spaced has-shadow" role="navigation" aria-label="main navigation">
             <div class="navbar-brand">
                 <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
                   <span aria-hidden="true"></span>
@@ -33,7 +33,11 @@
         </nav>
     </header>
 
-    <section class="hero">
+    <section class="hero is-small" name="hero filler">
+        <div class="hero-body"></div>
+    </section>
+
+    <section class="hero has-text-centered">
         <div class="hero-body">
             <p class="title">
                 Welcome
@@ -44,8 +48,8 @@
         </div>
     </section>
 
-    <div class="tile is-ancestor">
-        <div class="tile is-parent">
+    <div class="tile is-ancestor is-justify-content-center">
+        <div class="tile is-parent is-4">
             <article class="tile is-child box">
                 <p class="title">About me</p>
                 <figure class="image is-128x128">
@@ -57,7 +61,7 @@
                     please enjoy my filler images of my adorable pooch, Luke.</p>
             </article>
         </div>
-        <div class="tile is-parent is-vertical">
+        <div class="tile is-parent is-vertical is-4">
             <article class="tile is-child box">
                 <p class="title">Resume</p>
             </article>
