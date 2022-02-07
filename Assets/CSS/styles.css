@@ -1,0 +1,17 @@
+html {
+    background-image: linear-gradient(to bottom right, cyan, blue, navy)
+}
+
+a:hover {
+    opacity: .6;
+}
+
+.project-image:hover {
+    background-color:gray;
+    opacity: .6;
+}
+
+.project-image {
+    border-radius: 5%;
+    padding: 10px;
+}
