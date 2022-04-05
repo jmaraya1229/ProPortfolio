@@ -12,21 +12,29 @@
 </head>
 
 <body>
-    <nav class="navbar is-fixed-top is-dark is-spaced" role="navigation" aria-label="main navigation">
-        <div class="navbar-menu">
-            <div class="navbar-end">
+    <nav class="navbar is-dark is-fixed-top" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+      
+          <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
+        </div>
+      
+        <div id="navbarBasicExample" class="navbar-menu">
+            <div class="navbar-start">
                 <a class="navbar-item" href="#">
                 Home
                 </a>
+                <a class="navbar-item" href="#contacts">
+                Contact
+                </a>
                 <a class="navbar-item" href="#projects-page">
-                Projects
+                    Projects
                 </a>
             </div>
         </div>
-            <div class="navbar-item has-text-white has-text-centered is-hidden-desktop is-hidden-tablet p-4">
-                <a href="#" class="button mr-6 is-link">Home</a>
-                <a href="#projects-page" class="button is-link">Projects</a>                
-            </div>
     </nav>
 
     <section class="hero" name="hero filler">
@@ -51,7 +59,10 @@
                     </div>
             </article>
         </div>
-        <div class="tile is-parent is-vertical has-text-centered is-2">
+    </div>
+
+    <div class="tile is-ancestor is-justify-content-center" id="contacts">
+        <div class="tile is-parent has-text-centered is-2">
             <article class="tile is-child box">
                 <a href="./Assets/Images/JMaraya.Resume.pdf" target="_blank">
                     <p class="title">
@@ -59,6 +70,8 @@
                     </p>
                 </a>
             </article>
+        </div>
+        <div class="tile is-parent has-text-centered is-2">
             <article class="tile is-child box">
                 <a href="mailto: jessemaraya2013@gmail.com">
                     <p class="title">
@@ -66,6 +79,8 @@
                     </p>
                 </a>
             </article>
+        </div>
+        <div class="tile is-parent has-text-centered is-2">
             <article class="tile is-child box">
                 <a href="https://github.com/jmaraya1229" target="_blank">
                     <p class="title">
@@ -73,6 +88,8 @@
                     </p>
                 </a>
             </article>
+        </div>
+        <div class="tile is-parent has-text-centered is-2">
             <article class="tile is-child box">
                 <a href="https://www.linkedin.com/in/jesse-maraya/" target="_blank">
                     <p class="title">
