@@ -3,11 +3,11 @@ html {
 }
 
 a:hover {
-    opacity: .8;
+    opacity: .9;
 }
 
 .project-image:hover {
-    background-color:gray;
+    background-color:navy;
     opacity: .8;
 }
 
