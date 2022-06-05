@@ -10,4 +10,4 @@ The following webpage contains a brief biography, contact information, and links
 ![screenshot](Assets/Images/Screenshot.png)
 
 ## Website Link
-https://jmaraya1229.github.io/ProPortfolio/
+https://jmaraya1229.github.io/portfolio/
